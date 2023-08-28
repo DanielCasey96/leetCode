@@ -15,7 +15,7 @@ public class HappyNumber {
         int square;
         int sum = 0;
 
-        HashSet<Integer> infinityCheck=new HashSet();
+        HashSet<Integer> infinityCheck=new HashSet<Integer>();
 
         while (true) {
             for (i = 0; i < inputArray.length; i++) {
